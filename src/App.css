@@ -2,6 +2,136 @@
   text-align: center;
 }
 
+/* logo style */
+#logo
+{
+  text-transform: capitalize;
+  color: white;
+}
+#logo:active
+{
+  background-color: #61dafb;
+}
+
+/* Header style */
+.Header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* cart style */
+.card-listing
+{
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: .4em;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+.CartImage-Top,.CartImage-Top img
+{
+   width: 300px;
+   height: 350px;
+   cursor: pointer;
+}
+
+#img :hover
+{
+  transform: scale(1.2);
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+.Cart-Items
+{
+  border: 2px solid rgb(245, 188, 182);
+  padding: 2em;
+  margin: 1em;
+  border-radius: 15px;
+}
+
+#cart-title
+{
+  width: 15rem;
+  height: 6rem;
+  font-weight: 400;
+}
+
+#cart-price
+{
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.Add-CartItems
+{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cart-fields
+{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(205, 203, 203);
+  border-radius: 10px;
+  padding: 15px;
+}
+.cart-btn
+{
+  margin-top: 1em;
+}
+
+
+.Card-Details
+{
+  border: 1px solid lightsalmon;
+  margin: 10px ;
+  padding: 10px;
+}
+
+.card-poster >img
+{
+    width: 400px;
+    height: 400px;
+}
+
+.Cart-SPecs
+{
+  padding: 10px;
+}
+
+.Cart-Edit
+{
+  padding: 10px;
+  margin:2em;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
